@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>حضارة الأمازيغ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>حضارة الأمازيغ</h1>
+    <nav>
+      <a href="#history">الصراعات</a>
+      <a href="#events">الأحداث</a>
+      <a href="#heroes">الشخصيات</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="history">
+      <h2>الصراعات والهزائم والانتصارات</h2>
+      <ul>
+        <li>📌 مقاومة الرومان وتأسيس مملكة نوميديا على يد ماسينيسا.</li>
+        <li>📌 الفتح الإسلامي ودور الأمازيغ في نشر الإسلام بقيادة طارق بن زياد.</li>
+        <li>📌 مواجهة الاحتلال الفرنسي في الجزائر وبلدان شمال إفريقيا.</li>
+      </ul>
+    </section>
+
+    <section id="events">
+      <h2>أحداث بارزة</h2>
+      <ul>
+        <li>📅 950 ق.م: شيشنق الأول يؤسس الأسرة 22 في مصر.</li>
+        <li>📅 202 ق.م: تأسيس مملكة نوميديا.</li>
+        <li>📅 1086 م: معركة الزلاقة بقيادة يوسف بن تاشفين.</li>
+      </ul>
+    </section>
+
+    <section id="heroes">
+      <h2>شخصيات أمازيغية بارزة</h2>
+      <div class="card">
+        <h3>ماسينيسا</h3>
+        <p>موحد مملكة نوميديا، زعيم مقاوم للرومان، عاش في القرن الثاني قبل الميلاد.</p>
+      </div>
+      <div class="card">
+        <h3>طارق بن زياد</h3>
+        <p>قائد عسكري فتح الأندلس سنة 711م، يُعد من أشهر القادة المسلمين.</p>
+      </div>
+      <div class="card">
+        <h3>يوسف بن تاشفين</h3>
+        <p>مؤسس دولة المرابطين، بطل معركة الزلاقة، وحد المغرب والأندلس.</p>
+      </div>
+      <div class="card">
+        <h3>ابن بطوطة</h3>
+        <p>رحالة مغربي من طنجة، جاب العالم وكتب عن أسفاره في "تحفة النظار".</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 - موقع تعليمي عن حضارة الأمازيغ</p>
+  </footer>
+</body>
+</html>
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  margin: 0;
+  direction: rtl;
+}
+
+header {
+  background-color: #2e3b4e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: #2e3b4e;
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #ffffff;
+  padding: 10px;
+  margin: 10px 0;
+  border-right: 4px solid #2e3b4e;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+footer {
+  background: #2e3b4e;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
